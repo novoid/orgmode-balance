@@ -1,0 +1,12 @@
+This is a more or less quick hack that analyzes [[http://orgmode.org][Org-mode]] files and
+gives feedback on how you are doing today (or at a given day).
+
+The script lists:
+- closed items,
+- created items and
+- items still due
+
+The metrics are clearly subjective and should be improved. Please do
+fork and send improvements via merge requests!
+
+
