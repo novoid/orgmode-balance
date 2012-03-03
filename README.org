@@ -10,3 +10,21 @@ The metrics are clearly subjective and should be improved. Please do
 fork and send improvements via merge requests!
 
 
+Example output:
+
+:     ----===   2012-03-03   ===----
+: 
+:   closed:
+: work.org-**** DONE thanked administrators for great work
+: work.org-**** DONE submitted project report
+: work.org-**** DONE successfully ignored coffee machine
+: work.org-**** DONE volunteered for WORG project
+: 
+: 
+:       0 created (& still open)  -  4 done  =  -4  sum
+: 
+:   Congratulations!  Not more tasks generated than solved!
+: 
+: 
+:       Still 21 deadlines due tough! 
+:
