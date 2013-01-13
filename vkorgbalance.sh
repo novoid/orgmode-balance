@@ -5,8 +5,15 @@
 ## lists: closed items, created items and items still due
 ## The metrics are clearly subjective and should be improved
 
-#FILEPATTERN="*(org|archive)"         ## which files to search in
-FILEPATTERN="*"         ## which files to search in
+## FIXXMEs:
+## - with parameter 1: show only done tasks (incl. habits, ...)
+## - add LOGBOOK entries (habits, ...) as well:
+##    :LOGBOOK:
+##    - State "DONE"       from "TODO"       [2012-12-31 Mon 12:42] 
+
+
+FILEPATTERN='*\.org*'         ## which files to search in
+#FILEPATTERN="*"         ## which files to search in
 ORGMODEDIR="${HOME}/share/all/org-mode/"  ## where org-mode files life
 bldgrn='\e[1;32m'  ## from https://wiki.archlinux.org/index.php/Color_Bash_Prompt
 bldred='\e[1;31m'  ## and http://tldp.org/LDP/abs/html/colorizing.html ... works with "bash on Linux"
